@@ -28,7 +28,7 @@ body {
 	font-family: "Electrolize", sans-serif;
 	line-height: 1.75em;
 	font-size: 18px;
-	background:linear-gradient(to bottom right, #00483d, #000000);
+	background:linear-gradient(to bottom right, #0b2329, #000000);
 	color: #d6d6d6 !important;
 	margin: 0px;
   	padding: 0px;
@@ -41,6 +41,7 @@ table {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  border-spacing: 20px 5px;
 }
 
 #event-table {
@@ -96,7 +97,7 @@ h2 {
 	line-height: 25px;
 	padding-top: 0px;
 	line-height: 1em;
-  text-shadow: 0px 0px 4px rgb(255, 160, 160);
+  text-shadow: 0px 0px 4px #0b2329;
   transition: transform 0.7s ease;
 }
 
@@ -171,14 +172,18 @@ ul {
       list-style-type: none;
       margin: 0px;
       padding: 0px;
-      background: linear-gradient(to right, #00000000, #4ec4e8, #00000000);
+      background:#000000;
+
+      /*background: linear-gradient(to right, #00000000, #000000, #00000000);*/
       position: fixed;
+      left: 0;
       top: 0;
       width: 100%;
-	  font-size: 15px;
+	    font-size: 15px;
       display: flex;
       justify-content: center;
       align-items: center;
+      z-index: 10000;
     }
 
     /* each nav item */
@@ -204,7 +209,7 @@ ul {
 
     /* icons in nav */
     #navigation img {
-      verttical-align: middle;
+      vertical-align: middle;
       filter: brightness(0) invert(1);
     }
 
@@ -214,7 +219,7 @@ ul {
     width: 100%;
 	font-size: 15px;
 	text-align: center;
-	color: aquamarine;
+	color: rgb(0, 0, 0);
 	margin-top: 10px;
 	padding-bottom: 0px;
 
@@ -251,7 +256,7 @@ margin: 0 auto;
 
 .grid-item {
   display: inline-block;
-  background-color: #7773ac21;
+  background-color: #06060621;
   height: 250px;
   padding: 15px;
   margin: 10px;
@@ -261,6 +266,11 @@ margin: 0 auto;
 }
 
 
+#headerimg{
+  height: 500px;
+  width: auto;
+  margin-bottom: -100px;
+}
 
 #normalimg{
   height: 200px;
